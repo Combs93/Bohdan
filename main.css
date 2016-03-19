@@ -1,0 +1,16 @@
+body {
+    background: lightgrey;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    background: orange;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.container p, h3{
+    text-align: center;
+    line-height: 25px;
+}
