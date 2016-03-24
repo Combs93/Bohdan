@@ -1,26 +1,26 @@
 header {
 	background: silver;
-	width: 1350px;
+	width: 1800px;
 	height: 150px;
 }
 
 nav {
 	background: orange;
 	width: 300px;
-	height: 400px;
+	height: 600px;
 }
 
 section {
 	background: #D2B48C;
-	width: 1050px;
-	height: 400px;
+	width: 1500px;
+	height: 600px;
 	margin-left: 300px;
-	margin-top: -400px;
+	margin-top: -600px;
 }
 
 footer {
 	background: #7B68EE;
-	width: 1350px;
+	width: 1800px;
 	height: 150px;
 }
 
