@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 header {
 	background: silver;
 	width: 1800px;
