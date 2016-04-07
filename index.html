@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyCV</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div id="head">
+           <div class="head_list">
+                <ul>
+                    <li><a href="#page1">About me</a></li>
+                    <li><a href="#page2">My Skills</a></li>
+                    <li><a href="#page3">Contact</a></li>
+                </ul>
+                <ul class="language">
+                    <li><a href="#">Uk</a></li>
+                    <li><a href="#">En</a></li>
+                </ul>
+           </div>
+        </div>
+    </header>
+    
+    <section id="home">
+    </section>
+    
+    <section id="page1">
+       <div class="title">
+           <a href="#">About me</a>
+       </div>
+       <div class="personal_data">
+           <p>Personal Details:</p>
+           <p>First name: <span class="meaning">Bohdan</span></p>
+           <p>Last name: <span class="meaning">Lypynskyi</span></p>
+           <p>Date of birth: <span class="meaning">23 June 1993</span></p>  
+           <p>Nationality: <span class="meaning">Ukrainian</span></p>
+           <img class="me" src="" alt="MY PHOTO" title="me">
+       </div>
+       <div class="education">
+           <p>Education:</p>
+           <p>09.2010 - 12.2015 <span class="meaning">Lviv National Polytechnic University</span></p>
+           <p><span class="meaning">Institute of Telecommunications, Radioelectronics and Electronic Engineering</span></p>
+           <p>03.2016 - 04.2016 <span class="meaning">Soft Serve IT Acadamy</span></p>
+           <p><span class="meaning">HTML5/ CSS3/ JavaScript Fundamentals</span></p>
+       </div>
+    </section>
+    <section id="page2">
+        <div class="title">
+           <a href="#">My Skills</a>
+       </div>
+       <div class="skills">
+           <p>IT Skills:</p>
+               <ul>
+                   <li><img src="skills/ajax1.png" alt="Ajax" title="Ajax"></li>
+                   <li><img src="skills/bootstrap.png" alt="Boostrap" title="Bootstrap"></li>
+                   <li><img src="skills/css3.png" alt="CSS3" title="CSS3"></li>
+                   <li><img src="skills/html5.png" alt="HTML5" title="HTML5"></li>
+                   <li><img src="skills/javascript.png" alt="JavaScript" title="JavaScript"></li>
+                   <li><img src="skills/jquery.png" alt="jQuerry" title="jQuerry"></li>
+                   <li><img src="skills/sass.png" alt="Sass" title="Sass"></li>
+               </ul>
+       </div>
+       <div class="languages">
+           <p>Languages:</p>
+           <p>Ukrainian - </p>
+           <p>English - </p>
+           <p>Russian - </p>
+       </div>
+    </section>
+    <section id="page3">
+        <div class="title">
+           <a href="#">Contact me</a>
+       </div>
+       <div class="contacts">
+           <p>My Contacts</p>
+               <ul>
+                   <li><img class="icon" src="skills/pin.png" alt="Location"> Lviv, Ukraine</li>
+                   <li><img class="icon" src="skills/tel.png" alt="Telephone"> +38(093)92-93-825</li>
+                   <li><img class="icon" src="skills/gmail.ico" alt="mail">  bogdan23_93@mail.ru</li>
+                   <li><img class="icon" src="skills/skype.png" alt="skype"> bogdan23061</li>
+               </ul>
+       </div>
+       <div class="write_message">
+             <fieldset class="message">
+                <legend>Write me a message</legend>
+                    <form action="messages.js" method="post">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" required placeholder="Your name">
+                        <br>
+                        <!--<label for="uniqcode">Code</label>
+                        <input id="uniqcode" type="text" 
+                        pattern="[0-9] {4}" title="four-digit uniq code"
+                        required placeholder="your uniq code">-->
+                        <br>
+                        <label for="email">Email</label>
+                        <input id="email" type="text" required placeholder="Your email">
+                        <br>
+                        <p>Message</p>
+                        <textarea id="text" name="message" cols="50" rows="6" required></textarea>
+                        <br>
+                        <input id="button" type="submit" value="Send message">
+                    </form>
+            </fieldset>
+       </div>
+    </section>
+    <footer class="footer">
+        <p>Made by Bohdan Lypynskyi</p>
+          <div class="foot_icons">
+            <ul class="buttons">
+                <li class="button1"><a href="http://vk.com/bodya23"></a></li>
+                <li class="button2"><a href="https://www.facebook.com/profile.php?id=100000680130345"></a></li>
+                <li class="button3"><a href="#"></a></li>
+                <li class="button4"><a href="#"></a></li>
+                <li class="button5"><a href="#"></a></li>
+            </ul>
+          </div>
+    </footer>
+</body>
+</html>
