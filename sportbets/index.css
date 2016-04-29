@@ -5,7 +5,11 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-a {
+hr {
+    color: white;
+}
+
+* a{
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -57,20 +61,43 @@ a:hover{
 /*MAINMENU*/
 
 .mynav {
-    width: 770px;
+    width: 70%;
     margin: 0 auto;
 }
 
 .mynav li {
-    margin: 0 58px;
+    width: auto;
+    margin: 0 16px;
+    padding: 0 20px;
 }
 
 /*MAIN-INFORMATION*/
 
 #maininformation {
     width: 100%;
-    height: 500px;;
-    background: rgba(0, 0, 0,.6);
+    height: auto;
+/*    background: rgba(0, 0, 0,.6);*/
+    background: rgb(36, 33, 33);
     border-radius: 5px;
     margin: -19px 0;
+}
+
+/*SPORT-BETS-INFORMATION*/
+
+.sport-bet {
+    width: 100%;
+    height: 160px;
+    border-bottom: 2px solid brown;
+    color: white;
+    text-align: justify;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.sport-bet h3 {
+    text-align: center;
+}
+
+.my-btn {
+    margin: 2% 85%;
 }
