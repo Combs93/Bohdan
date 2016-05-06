@@ -1,0 +1,151 @@
+* {
+	transition: .2s;
+}
+
+.my-logo {
+	border-radius: 15px;
+}
+
+.logo-name {
+	font-family: arial, serif;
+	color: green;
+}
+
+.my-col {
+	height: 600px;
+	max-height: 2000px;
+}
+
+.blck {
+	background: rgba(128, 128, 128, 0.26);
+}
+
+.blck1 {
+	background: rgba(227, 152, 152, 0.26);
+}
+
+.blck2 {
+	background: rgba(134, 190, 143, 0.35);
+	color: white;
+}
+
+.blck3 {
+	background: rgba(221, 162, 29, 0.17);
+}
+
+footer {
+    background: #332e2e;
+    color: white;
+    padding: 10px;
+	line-height: 5px;
+}
+
+.my-nav li {
+    margin: 0 2px;
+}
+
+                    /*SPORT-INFORMATION*/
+.my-panel {
+    text-align: center;
+}
+
+.match-name-tennis {
+    font-size: 1.75em;
+	font-family: gabriola, serif;
+	color: #319f4a;
+}
+
+.match-name-football {
+    font-size: 1.75em;
+	font-family: gabriola, serif;
+	color: #3d1fe2;
+}
+
+.match-name-basketball {
+    font-size: 1.75em;
+	font-family: gabriola, serif;
+	color: #a00505;
+}
+
+.sport-name {
+    font-size: 2.3em;
+    font-family: fantasy;
+}
+
+.tennis {
+    color: #00d100;
+}
+
+.football {
+	color: #5b8d79;
+}
+
+.basketball {
+	color: rgba(145, 10, 10, 0.87);
+}
+
+.match-inform {
+    font-size: 0.85em;
+    text-align: left;
+    color: #000000;
+    font-family: Arial, serif;
+}
+
+.tournament-inform {
+    text-align: center;
+	text-decoration: underline;
+	color: #582020;
+}
+
+.my-container {
+	width: auto;
+	margin: 0;
+}
+
+.btn-tennis-bet {
+	background: #82cb82;
+}
+
+.btn-tennis-bet {
+	background: #82cb82;
+}
+
+.btn-football-bet, .btn-football-bet:hover {
+	background: rgba(41, 104, 206, .7);
+	color: white;
+}
+
+.btn-basketball-bet, .btn-basketball-bet:hover {
+	background: rgba(131, 0, 0, 0.76);
+	color: white;
+}
+
+.text-bet-tennis {
+	background: rgba(190, 234, 44, 0.2);
+	text-align: justify;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px solid silver;
+	border-radius: 0 15px 15px 15px
+} 
+
+.text-bet-football {
+	background: rgba(42, 110, 190, 0.2);
+	text-align: justify;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px solid silver;
+	border-radius: 0 15px 15px 15px
+} 
+
+.text-bet-basketball {
+	background: rgba(152, 7, 7, 0.23);
+	text-align: justify;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border: 1px solid silver;
+	border-radius: 0 15px 15px 15px
+} 
+.block-info {
+	background: rgba(192, 192, 192, 0.15);
+}
