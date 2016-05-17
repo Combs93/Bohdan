@@ -2,155 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
-    <title>Bohdan Lypynskyi</title>
-    
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>One moment Bets</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-    <div class="header">
-        <div class="container">
-            <ul class="nav nav-pills">
-                <li><a class="mybtn text-center" data-toggle="pill" href="#home">About me</a></li>
-                <li><a class="mybtn text-center" data-toggle="pill" href="#skills">My Skills</a></li>
-                <li><a class="mybtn text-center" data-toggle="pill" href="#projects">My Projecs</a></li>
-                <li><a class="mybtn text-center" data-toggle="pill" href="#contacts">Contacts</a></li>            
-            </ul>
-        </div>
-    </div>
-    <div id="main" class="row">
-        <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <div class="myimg">
-                <img class="imgg" src="images/SAM_1372.JPG" alt="me">
-                </div>
-                <h3 class="text-center">Hi, my name is Bohdan Lypynskyi</h3>
-                <p class="text-center">and I'm Front-end developer</p>
-                <br><br><br>
-                <h3 class="text-center">Education:</h3>
-                <br>
-                <div class="education">
-                    <ul>
-                        <li><kbd>09.2010 - 12.2015</kbd> Lviv National Polytechnic University
-                            <ul>
-                                <li class="ed2">Institute of Telecommunications, Radioelectronics and Electronic Engineering</li>
-                            </ul>
-                        </li>
-                        <li><kbd>03.2016 - 04.2016</kbd> Soft Serve IT Acadamy
-                            <ul>
-                                <li class="ed2">HTML5/ CSS3/ JavaScript Fundamentals</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="skills" class="tab-pane fade">
-                <h3 class="text-center">IT Skills</h3>
-                <br>
-                <p class="text-center">Here is the list of some technologies that I use</p>
-                <br>
-                <div class="skill-icons">
-                    <img src="images/html5.png" alt="Html5" title="HTML5">
-                    <img src="images/css3.png" alt="CSS3" title="CSS3">
-                    <img src="images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
-                    <img src="images/sass.png" alt="SASS" title="Scss(Sass)">
-                    <img src="images/javascript.png" alt="JavaScript" title="JavaScript">
-                    <img src="images/jquery.png" alt="jQuery" title="jQuery">
-                    <img src="images/ajax1.png" alt="Ajax" title="Ajax">
-                </div> 
-                <br>
-                <h3 class="text-center">Languages</h3>
-                <br><br><br>
-                <span class="badge">Ukrainian</span>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
-                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                            100%
-                        </div>
-                    </div>
-                <span class="badge">English</span>
-                   <div class="progress">
-                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
-                          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                            80%
-                        </div>
-                    </div>
-            </div>
-            <div id="projects" class="tab-pane fade">
-                <h3 class="text-center">My Portfolio</h3>
-                <br><br>
-                <p class="text-center">Here are all my projects in frontend developing</p>
-                <div class="portfolio-projects">
-                    <p>fsdfs</p>
-                </div>
-            </div>
-            <div id="contacts" class="tab-pane fade">
-                <h3 class="text-center">If you are interesting in my help, drop me a letter</h3>
-                <br>
-                
-                <!--Modal message-->
-                <div class="container">
-                    <!--Trigger the modal in a button-->
-                    <div class="btnbtn">
-                    <button type="button" class="btn btn-default btn-lg mybtn" data-toggle="modal" data-target="#myModal">Contact me</button>
-                    </div>
-                    <br><br>
-                    <p class="text-center">Phone:  <span class="my-info">+38(093)92-93-825</span></p>
-                    <p class="text-center">E-mail: <span class="my-info">bogdan23_93@mail.ru</span></p>
-                    <!--Modal-->
-                    <div class="modal fade" id="myModal" role="dialog">
-                       
-                        <!--Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title text-center">You can send me a letter and I answer you in a few hours</h4>
-                            </div>
-                            <div class="modal-body">
-                                <form id="form">
-                                    <div class="form-group">
-                                    <label for="name" class="control-label">Name:</label>
-                                    <input type="text" class="form-control" id="name" name="name"
-                                    required placeholder="Write your name">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="email" class="control-label">Email:</label>
-                                    <input type="email" class="form-control" id="email" name="email"
-                                   required placeholder="Put your email">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="message-text" class="control-label">Your Message:</label>
-                                    <textarea class="form-control" id="message" name="message"
-                                     required></textarea>
-                                  </div>
-	                            </form>
-                            </div>
-                            <div class="modal-footer">
-                                <div class="lastbtn">
-                                <input id="btn-send" type="submit" value="Send message" form="form" class="btn btn-default mybtn">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="map">
-            <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1723034313077!2d24.03181463984016!3d49.8392199110478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e9dda240f%3A0x3f87a0b0320574cb!2z0JPQsNC70LjRhtGM0LrQsCDQv9C7Liwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1461002042359" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-            </div>
-        </div>
-    </div>
-    <footer id="foot">
-        <div class="footer-inform">
-            <a href="https://www.facebook.com/profile.php?id=100000680130345" target="_blank"><img class="footer-icon" src="images/fffcb.png" alt="Facebook"></a>
-            <a href="https://github.com/Combs93" target="_blank"><img class="footer-icon" src="images/github-512.png" alt="git"></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img class="footer-icon" src="images/inn.png" alt="Linkedin"></a>
-        </div>
-    </footer>
+	<header id="head"><img class="head-img" src="images/cooltext182894680003670.png" alt="One Moment Bets"></header>
+	<div id="main">
+		<nav id="head-menu">
+			<ul class="nav-menu">
+				<li><a href="index.html">Прогнозы</a></li>
+				<li><a href="#">Статистика прогнозов</a></li>
+				<li><a href="#">Платные прогнозы</a></li>
+			</ul>
+		</nav>
+		<div id="bets" class="container">
+			<ul class="nav nav-tabs">
+				<li class="sport-tab tennis-tab"><a data-toggle="tab" href="#tennis">Теннис</a></li>
+				<li class="sport-tab football-tab"><a data-toggle="tab" href="#football">Футбол</a></li>
+				<li class="sport-tab basketball-tab"><a data-toggle="tab" href="#basketball">Баскетбол</a></li>
+  			</ul>
+  			<div class="tab-content">
+    		<div id="tennis" class="tab-pane fade in active">
+    			<h4 class="bet-date"><img class="tennis-icon" src="images/tennis.png" alt="tennis">  Прогнозы на теннис 22.05.2016</h4>
+    			<div class="tns-bet tennis-bet-1 animated zoomIn row">
+    			    <div class="bet-matchname">
+					<h4><span class="bet-tournament">Ролан Гаррос</span><br><hr><span class="bet-players">Новак Джокович - Карен Хачанов</span>
+ 					<hr>
+ 					<button class="btn btn-danger"><a href="tennis-match1.html">Посмотреть прогноз на матч</a></button>
+  					</h4>
+  					</div>
+  					<div class="timer"><span class="match-timer">Начало встречи через: several days bro</span></div>
+   				</div>
+   				<div class="tns-bet tennis-bet-2 animated zoomIn">
+					<div class="bet-matchname">
+					<h4><span class="bet-tournament">Ролан Гаррос</span><br><hr><span class="bet-players">Новак Джокович - Карен Хачанов</span>
+ 					<hr>
+ 					<button class="btn btn-danger"><a href="#">Посмотреть прогноз на матч</a></button>
+  					</h4>
+  					</div>
+  					<div class="timer"><span class="match-timer">Начало встречи через: several days bro</span></div>
+   				</div>
+   				<div class="tns-bet tennis-bet-3 animated zoomIn">
+					<div class="bet-matchname">
+					<h4><span class="bet-tournament">Ролан Гаррос</span><br><hr><span class="bet-players">Новак Джокович - Карен Хачанов</span>
+ 					<hr>
+ 					<button class="btn btn-danger"><a href="#">Посмотреть прогноз на матч</a></button>
+  					</h4>
+  					</div>
+  					<div class="timer"><span class="match-timer">Начало встречи через: several days bro</span></div>
+   				</div>
+   				<div class="tns-bet tennis-bet-4 animated zoomIn">
+					<div class="bet-matchname">
+					<h4><span class="bet-tournament">Ролан Гаррос</span><br><hr><span class="bet-players">Новак Джокович - Карен Хачанов</span>
+ 					<hr>
+ 					<button class="btn btn-danger"><a href="#">Посмотреть прогноз на матч</a></button>
+  					</h4>
+  					</div>
+  					<div class="timer"><span class="match-timer">Начало встречи через: several days bro</span></div>
+   				</div>
+    		</div>
+    		<div id="football" class="tab-pane fade">
+      			<h3>Menu 1</h3>
+      			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		</div>
+    		<div id="basketball" class="tab-pane fade">
+      			<h3>Menu 2</h3>
+      			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    		</div>
+  			</div>
+		</div>
+	</div>	
+	<footer>dsfs</footer>
 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
